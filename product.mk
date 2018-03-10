@@ -10,7 +10,3 @@ TARGET_ARCH := arm
 endif
 -include vendor/gapps/$(TARGET_ARCH)/$(TARGET_ARCH)-vendor.mk
 endif
-
-# Recovery ADB keys
-PRODUCT_COPY_FILES += \
-    vendor/extra/adb_keys:recovery/root/adb_keys
